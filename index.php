@@ -31,6 +31,13 @@ echo "<h2>----- Step 2 ------</h2>";
 echo "<h5>Numbers array: </h5>";
 $numbers = array( "7", "9", "8", "9", "8", "8", "6");
 printArr($numbers);
+
+echo "<h2>----- Step 3 -----</h2>";
+echo "<p>functions.php created</p>";
+
+
+echo "<h2>----- Step 4 -----</h2>";
+echo "<p>Largest array prints: </p>"."<p>". largest($numbers)."</p>";
 ?>
 
 </body>

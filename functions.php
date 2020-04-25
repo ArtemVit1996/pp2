@@ -6,3 +6,7 @@ function printArr(array $numbers)
         echo "$value<br>";
     }
 }
+
+function largest(array $numbers) {
+    return max($numbers);
+}
