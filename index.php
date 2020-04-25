@@ -38,6 +38,11 @@ echo "<p>functions.php created</p>";
 
 echo "<h2>----- Step 4 -----</h2>";
 echo "<p>Largest array prints: </p>"."<p>". largest($numbers)."</p>";
+
+echo "<h2>----- Step 5 -----</h2>";
+echo "<p>removeDups returns: </p>";
+printArr(removeDups($numbers));
+
 ?>
 
 </body>

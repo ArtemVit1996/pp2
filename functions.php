@@ -10,3 +10,7 @@ function printArr(array $numbers)
 function largest(array $numbers) {
     return max($numbers);
 }
+
+function removeDups(array $numbers) {
+    return array_unique($numbers);
+}
