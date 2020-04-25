@@ -23,6 +23,7 @@ error_reporting(E_ALL);
 </head>
 <body>
 <?php
+require "functions.php";
 echo "<h2>----- Step 1 -----</h2>";
 echo "<h3>PHP Array Practice</h3><br>";
 
