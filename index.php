@@ -43,6 +43,10 @@ echo "<h2>----- Step 5 -----</h2>";
 echo "<p>removeDups returns: </p>";
 printArr(removeDups($numbers));
 
+echo "<h2>----- Step 6 -----</h2>";
+echo "<p>distribution returns: </p>";
+distribution($numbers);
+
 ?>
 
 </body>
